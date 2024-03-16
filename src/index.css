@@ -9,4 +9,6 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
     scrollbar-width: none;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }

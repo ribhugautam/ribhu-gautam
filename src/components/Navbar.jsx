@@ -9,12 +9,14 @@ function Navbar() {
     <div className="w-11/12 max-w-[1180px] mx-auto ">
       <div className="flex justify-between py-8 items-center">
         <div className="relative">
+            <Link to="/" >
           <div className="border-4 border-cyan-400 size-10 rounded-l-full rounded-t-full" />
           <span className="absolute top-1 left-[16px] font-handjet font-bold text-2xl text-cyan-400 ">
             R
           </span>
+          </Link>
         </div>
-
+        
         <div>
           <ul
             id="list"
