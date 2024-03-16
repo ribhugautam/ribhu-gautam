@@ -28,6 +28,9 @@ function Navbar() {
                 document
                   .getElementById("list")
                   .classList.toggle("translate-x-[100%]");
+                  document
+                  .getElementById("list")
+                  .classList.toggle("hidden");
                 document
                   .querySelector("html")
                   .classList.toggle("overflow-hidden");
@@ -48,6 +51,9 @@ function Navbar() {
                 document
                   .getElementById("list")
                   .classList.toggle("translate-x-[100%]");
+                  document
+                  .getElementById("list")
+                  .classList.toggle("hidden");
                 document
                   .querySelector("html")
                   .classList.toggle("overflow-hidden");
@@ -68,6 +74,9 @@ function Navbar() {
                 document
                   .getElementById("list")
                   .classList.toggle("translate-x-[100%]");
+                  document
+                  .getElementById("list")
+                  .classList.toggle("hidden");
                 document
                   .querySelector("html")
                   .classList.toggle("overflow-hidden");
@@ -88,6 +97,9 @@ function Navbar() {
                 document
                   .getElementById("list")
                   .classList.toggle("translate-x-[100%]");
+                  document
+                  .getElementById("list")
+                  .classList.toggle("hidden");
                 document
                   .querySelector("html")
                   .classList.toggle("overflow-hidden");
@@ -108,6 +120,9 @@ function Navbar() {
                 document
                   .getElementById("list")
                   .classList.toggle("translate-x-[100%]");
+                document
+                  .getElementById("list")
+                  .classList.toggle("hidden");
                 document
                   .querySelector("html")
                   .classList.toggle("overflow-hidden");
