@@ -20,7 +20,7 @@ function Navbar() {
         <div>
           <ul
             id="list"
-            className={` absolute flex hidden z-[5] right-0 top-0 p-24 h-screen w-[50%] translate-x-[100%] lg:translate-x-0 xl:translate-x-0 lg:w-auto xl:w-auto lg:h-auto xl:h-auto lg:p-0 xl:p-0 bg-slate-950 lg:bg-transparent xl:bg-transparent font-handjet lg:static xl:static flex-col lg:flex lg:flex-row xl:flex xl:flex-row justify-center lg:text-xs xl:text-sm transition-all ease-in-out duration-200 font-medium items-center gap-10 lg:gap-8 xl:gap-8 `}
+            className={` absolute flex hidden z-[5] right-0 top-0 p-24 h-screen w-[80%] translate-x-[100%] md:translate-x-0 lg:translate-x-0 xl:translate-x-0 md:w-auto lg:w-auto xl:w-auto md:h-auto lg:h-auto xl:h-auto md:p-0 lg:p-0 xl:p-0 bg-slate-950 md:bg-transparent lg:bg-transparent xl:bg-transparent font-handjet md:static lg:static xl:static flex-col md:flex md:flex-row lg:flex lg:flex-row xl:flex xl:flex-row justify-center md:text-xs lg:text-xs xl:text-sm transition-all ease-in-out duration-200 font-medium items-center gap-10 md:gap-8 lg:gap-8 xl:gap-8 `}
           >
             <HashLink
               onClick={() => {
@@ -158,7 +158,7 @@ function Navbar() {
               console.error("Could not find element with id 'list'");
             }
           }}
-          className={`flex cursor-pointer  lg:hidden xl:hidden z-10 gap-4`}
+          className={`flex cursor-pointer md:hidden lg:hidden xl:hidden z-10 gap-4`}
         >
           <div className="flex flex-col gap-[8px]">
             <div

@@ -3,7 +3,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import { Routes, Route, Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 import Hero from "./components/Hero";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
