@@ -20,7 +20,7 @@ function Navbar() {
         <div>
           <ul
             id="list"
-            className=" absolute z-[5] right-0 top-0 p-24 h-screen w-[50%] translate-x-[100%] lg:translate-x-0 xl:translate-x-0 lg:w-auto xl:w-auto lg:h-auto xl:h-auto lg:p-0 xl:p-0 bg-slate-950 lg:bg-transparent xl:bg-transparent font-handjet lg:static xl:static flex flex-col lg:flex lg:flex-row xl:flex xl:flex-row justify-center lg:text-xs xl:text-sm transition-all ease-in-out duration-200 font-medium items-center gap-10 lg:gap-8 xl:gap-8 "
+            className={` absolute flex hidden z-[5] right-0 top-0 p-24 h-screen w-[50%] translate-x-[100%] lg:translate-x-0 xl:translate-x-0 lg:w-auto xl:w-auto lg:h-auto xl:h-auto lg:p-0 xl:p-0 bg-slate-950 lg:bg-transparent xl:bg-transparent font-handjet lg:static xl:static flex-col lg:flex lg:flex-row xl:flex xl:flex-row justify-center lg:text-xs xl:text-sm transition-all ease-in-out duration-200 font-medium items-center gap-10 lg:gap-8 xl:gap-8 `}
           >
             <HashLink
               onClick={() => {
@@ -129,7 +129,7 @@ function Navbar() {
             const listElement = document.getElementById("list");
             if (listElement) {
               listElement.classList.toggle("translate-x-[100%]");
-
+              listElement.classList.toggle("hidden");
 
               const html = document.querySelector("html");
               const body = document.querySelector("#bod");
