@@ -20,9 +20,9 @@ function App() {
           <div id="about" className="mt-[18rem]" >
             <About />
           </div>
-          <div id="experience" className="mt-[18rem]" >
+          {/* <div id="experience" className="mt-[18rem]" >
             <Experience />
-          </div>
+          </div> */}
           <div id="projects" className="mt-[18rem]" >
             <Projects />
           </div>

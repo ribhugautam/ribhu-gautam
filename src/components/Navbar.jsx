@@ -85,21 +85,21 @@ function Navbar() {
                 <span className="text-cyan-400 font-handjet ">01.</span> About{" "}
               </li>
             </HashLink>
-            <HashLink onClick={handleClick} to="/experience/#experience">
+            {/* <HashLink onClick={handleClick} to="/experience/#experience">
               <li className="flex gap-2 cursor-pointer font-handjet text-xl md:text-md lg:text-md xl:text-md font-bold hover:text-cyan-400 transition-all duration-200 ">
                 <span className="text-cyan-400 font-handjet ">02.</span>{" "}
                 Experience{" "}
               </li>
-            </HashLink>
+            </HashLink> */}
             <HashLink onClick={handleClick} to="/projects/#projects">
               <li className="flex gap-2 cursor-pointer font-handjet text-xl md:text-md lg:text-md xl:text-md font-bold hover:text-cyan-400 transition-all duration-200 ">
-                <span className="text-cyan-400 font-handjet ">03.</span>{" "}
+                <span className="text-cyan-400 font-handjet ">02.</span>{" "}
                 Projects{" "}
               </li>
             </HashLink>
             <HashLink onClick={handleClick} to="/contact/#contact">
               <li className="flex gap-2 cursor-pointer font-handjet text-xl md:text-md lg:text-md xl:text-md font-bold hover:text-cyan-400 transition-all duration-200 ">
-                <span className="text-cyan-400 font-handjet ">04.</span> Contact{" "}
+                <span className="text-cyan-400 font-handjet ">03.</span> Contact{" "}
               </li>
             </HashLink>
             <Link
