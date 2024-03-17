@@ -5,7 +5,7 @@ import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 function Footer() {
   return (
     <div className='flex flex-col justify-center gap-4 items-center mt-24' >
-        <div className=" flex gap-4 items-center justify-between">
+        <div className=" flex lg:hidden xl:hidden gap-4 items-center justify-between">
           <Link to="https://www.linkedin.com/in/ribhugautam/" target="_blank" >
           <button>
             <FaLinkedin size={18} className="hover:text-cyan-400 hover:translate-y-[-2px] transition-all duration-200 " />
