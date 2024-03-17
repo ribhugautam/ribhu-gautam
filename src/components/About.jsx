@@ -15,7 +15,7 @@ function About() {
           <div className="w-full h-[1px] bg-slate-400" />
         </div>
         <div className="flex flex-wrap justify-center items-start gap-8 md:gap-[4rem] lg:gap-[4rem] xl:gap-[4rem] ">
-          <div className="flex flex-col gap-4 mt-8 max-w-[480px]">
+          <div className="flex flex-col gap-6 mt-8 max-w-[480px]">
             <p className="font-poppins ">
               I'm Ribhu, a freshly-graduated software engineer, I bring a blend
               of academic knowledge and a{" "}

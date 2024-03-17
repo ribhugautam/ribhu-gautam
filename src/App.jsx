@@ -8,12 +8,13 @@ import Hero from "./components/Hero";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <div className="relative bg-gradient-to-b from-black to-slate-800 text-slate-400 min-h-screen pb-8 ">
-        <Navbar />
+        <Navbar  />
 
         <div id="bod" className="w-11/12 lg:max-w-[800px] sm:max-w-[550px] mx-auto ">
           <Hero />
@@ -23,11 +24,14 @@ function App() {
           {/* <div id="experience" className="mt-[18rem]" >
             <Experience />
           </div> */}
-          <div id="projects" className="mt-[18rem]" >
+          <div id="projects" className="mt-[12rem]" >
             <Projects />
           </div>
-          <div id="contact" className="mt-[18rem]" >
+          <div id="contact" className="mt-[12rem]" >
             <Contact />
+          </div>
+          <div id="footer" className="mt-[12rem]" >
+          <Footer />
           </div>
         </div>
 
