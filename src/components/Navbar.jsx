@@ -68,8 +68,8 @@ function Navbar() {
       <div className="flex justify-between py-8 items-center">
         <div className="relative">
           <Link to="/">
-            <div className="border-4 border-cyan-400 size-10 rounded-l-full rounded-t-full" />
-            <span className="absolute top-1 left-[16px] font-handjet font-bold text-2xl text-cyan-400 ">
+            <div className="border-4 border-cyan-400 bg-black size-10 z-[1] rounded-l-full rounded-t-full" />
+            <span className="absolute top-1 left-[16px] font-handjet font-bold z-[2] text-2xl text-cyan-400 ">
               R
             </span>
           </Link>
@@ -78,27 +78,27 @@ function Navbar() {
         <div>
           <ul
             id="list"
-            className={` absolute flex hidden z-[5] right-0 top-0 p-24 h-screen w-[80%] translate-x-[100%] md:translate-x-0 lg:translate-x-0 xl:translate-x-0 md:w-auto lg:w-auto xl:w-auto md:h-auto lg:h-auto xl:h-auto md:p-0 lg:p-0 xl:p-0 bg-slate-950 md:bg-transparent lg:bg-transparent xl:bg-transparent font-handjet md:static lg:static xl:static flex-col md:flex md:flex-row lg:flex lg:flex-row xl:flex xl:flex-row justify-center md:text-xs lg:text-xs xl:text-sm transition-all ease-in-out duration-200 font-medium items-center gap-10 md:gap-8 lg:gap-8 xl:gap-8 `}
+            className={` absolute flex hidden z-[5] right-0 top-0 p-24 h-screen w-[80%] sm:w-[60%] translate-x-[100%] md:translate-x-0 lg:translate-x-0 xl:translate-x-0 md:w-auto lg:w-auto xl:w-auto md:h-auto lg:h-auto xl:h-auto md:p-0 lg:p-0 xl:p-0 bg-slate-950/90 md:bg-transparent lg:bg-transparent xl:bg-transparent font-handjet md:static lg:static xl:static flex-col md:flex md:flex-row lg:flex lg:flex-row xl:flex xl:flex-row justify-center md:text-xs lg:text-xs xl:text-sm transition-all ease-in-out duration-200 font-medium items-center gap-10 md:gap-8 lg:gap-8 xl:gap-8 `}
           >
             <HashLink onClick={handleClick} to="/about/#about">
-              <li className="flex gap-2 cursor-pointer font-handjet text-xl font-bold hover:text-cyan-400 transition-all duration-200 ">
+              <li className="flex gap-2 cursor-pointer font-handjet text-xl md:text-md lg:text-md xl:text-md font-bold hover:text-cyan-400 transition-all duration-200 ">
                 <span className="text-cyan-400 font-handjet ">01.</span> About{" "}
               </li>
             </HashLink>
             <HashLink onClick={handleClick} to="/experience/#experience">
-              <li className="flex gap-2 cursor-pointer font-handjet text-xl font-bold hover:text-cyan-400 transition-all duration-200 ">
+              <li className="flex gap-2 cursor-pointer font-handjet text-xl md:text-md lg:text-md xl:text-md font-bold hover:text-cyan-400 transition-all duration-200 ">
                 <span className="text-cyan-400 font-handjet ">02.</span>{" "}
                 Experience{" "}
               </li>
             </HashLink>
             <HashLink onClick={handleClick} to="/projects/#projects">
-              <li className="flex gap-2 cursor-pointer font-handjet text-xl font-bold hover:text-cyan-400 transition-all duration-200 ">
+              <li className="flex gap-2 cursor-pointer font-handjet text-xl md:text-md lg:text-md xl:text-md font-bold hover:text-cyan-400 transition-all duration-200 ">
                 <span className="text-cyan-400 font-handjet ">03.</span>{" "}
                 Projects{" "}
               </li>
             </HashLink>
             <HashLink onClick={handleClick} to="/contact/#contact">
-              <li className="flex gap-2 cursor-pointer font-handjet text-xl font-bold hover:text-cyan-400 transition-all duration-200 ">
+              <li className="flex gap-2 cursor-pointer font-handjet text-xl md:text-md lg:text-md xl:text-md font-bold hover:text-cyan-400 transition-all duration-200 ">
                 <span className="text-cyan-400 font-handjet ">04.</span> Contact{" "}
               </li>
             </HashLink>
@@ -107,7 +107,7 @@ function Navbar() {
               to={"https://ufile.io/gav22l7f"}
               target="_blank"
             >
-              <li className="text-cyan-400 text-xl font-handjet font-bold border cursor-pointer border-cyan-400 p-1 px-4 rounded ">
+              <li className="text-cyan-400 text-xl md:text-md lg:text-md xl:text-md font-handjet font-bold border cursor-pointer border-cyan-400 p-1 px-4 rounded ">
                 Resume
               </li>
             </Link>

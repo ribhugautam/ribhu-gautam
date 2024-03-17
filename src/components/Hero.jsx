@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { FaLinkedin } from "react-icons/fa";
 
 function Hero() {
   return (
