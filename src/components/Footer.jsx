@@ -23,8 +23,8 @@ function Footer() {
           </Link>
         </div>
         <div className='flex flex-col gap-1' >
-        <span className='text-xs text-center ' >Design Inspired by Brittany Chiang </span>
-        <span className='text-xs text-center ' >Build by Ribhu Gautam </span>
+        <span className='text-cyan-400 text-center font-handjet text-[14px] font-bold '>Build by Ribhu Gautam</span>
+        <span className='text-cyan-400 text-center font-handjet text-[14px] font-bold ' >Design Inspired by Brittany Chiang</span>
         </div>
     </div>
   )
