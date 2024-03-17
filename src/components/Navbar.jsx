@@ -68,7 +68,7 @@ function Navbar() {
       <div className="flex justify-between py-8 items-center">
         <div className="relative">
           <Link to="/">
-            <div className="border-4 border-cyan-400 bg-black size-10 z-[1] rounded-l-full rounded-t-full" />
+            <div className="border-4 border-cyan-400 hover:bg-cyan-400/20 transition-all duration-200 ease-linear size-10 z-[1] rounded-l-full rounded-t-full" />
             <span className="absolute top-1 left-[16px] font-handjet font-bold z-[2] text-2xl text-cyan-400 ">
               R
             </span>
@@ -107,7 +107,7 @@ function Navbar() {
               to={"https://ufile.io/gav22l7f"}
               target="_blank"
             >
-              <li className="text-cyan-400 text-xl md:text-md lg:text-md xl:text-md font-handjet font-bold border cursor-pointer border-cyan-400 p-1 px-4 rounded ">
+              <li className="text-cyan-400 hover:bg-cyan-400/20 transition-all duration-200 ease-linear text-xl md:text-md lg:text-md xl:text-md font-handjet font-bold border cursor-pointer border-cyan-400 p-1 px-4 rounded ">
                 Resume
               </li>
             </Link>
