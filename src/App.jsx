@@ -35,7 +35,7 @@ function App() {
           </div>
         </div>
 
-        <div className="fixed bottom-0 left-36 hidden xl:flex lg:flex gap-4 items-center justify-between flex-col-reverse ">
+        <div className="fixed bottom-0 left-[10rem] hidden xl:flex lg:flex gap-4 items-center justify-between flex-col-reverse ">
           <div className="h-24 w-[2px] bg-slate-400 " />
           <Link to="https://www.linkedin.com/in/ribhugautam/" target="_blank" >
           <button>
@@ -54,7 +54,7 @@ function App() {
           </Link>
         </div>
 
-        <div className="fixed bottom-0 right-36 hidden xl:flex lg:flex gap-8 items-center justify-between flex-col-reverse ">
+        <div className="fixed bottom-0 right-[10rem] hidden xl:flex lg:flex gap-8 items-center justify-between flex-col-reverse ">
           <div className="h-24 w-[2px] bg-slate-400 " />
           <Link
             hrefLang="en"
