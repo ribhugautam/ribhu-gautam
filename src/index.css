@@ -10,3 +10,7 @@
     scroll-behavior: smooth;
     scrollbar-width: none;
 }
+
+body{
+    background-color: black;
+}
