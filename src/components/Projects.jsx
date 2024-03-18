@@ -19,33 +19,33 @@ function Projects() {
         </div>
 
         <div className="mt-10 shadow-md lg:shadow-none xl:shadow-none relative ">
-          <div className="flex flex-row justify-between items-center gap-4 max-w-[550px] rounded">
+          <div className="flex flex-row justify-between items-center gap-4 max-w-[550px] max-h-full rounded">
             <img
               src={download}
               alt="project"
-              className="rounded filter grayscale hover:grayscale-0 transition-all duration-200 ease-linear "
+              className=" hidden sm:block lg:block xl:block rounded filter max-h-full max-w-full grayscale hover:grayscale-0 transition-all duration-200 ease-linear "
             />
 
-            <div className="absolute h-full w-full justify-center backdrop-rounded backdrop-blur-[1px] backdrop-brightness-50 lg:backdrop-brightness-100 xl:backdrop-brightness-100 hover:bg-cyan-400/10 transition-all duration-200 ease-linear lg:hover:bg-transparent xl:hover:bg-transparent lg:backdrop-blur-none xl:backdrop-blur-none  lg:right-0 xl:right-0 p-8 lg:p-0 xl:p-0 text-left xl:text-right lg:text-right max-w-[600px] lg:max-w-[450px] xl:max-w-[450px] flex flex-col gap-4 ">
-              <span className="text-xs -mb-3 ">FEATURED PROJECT</span>
-              <p className="text-2xl font-handjet font-bold text-cyan-400 ">
+            <div className="relative sm:absolute lg:absolute xl:absolute z-10 max-h-full object-contain h-full w-full justify-center backdrop-rounded backdrop-brightness-50 lg:backdrop-brightness-100 xl:backdrop-brightness-100 bg-cyan-400/10 transition-all duration-200 ease-linear lg:bg-transparent xl:bg-transparent lg:backdrop-blur-none xl:backdrop-blur-none  lg:right-0 xl:right-0 p-8 lg:p-0 xl:p-0 text-left xl:text-right lg:text-right max-w-[600px] lg:max-w-[450px] xl:max-w-[450px] flex flex-col gap-4 ">
+              <span className="text-xs hidden lg:block xl:block -mb-3 ">FEATURED PROJECT</span>
+              <p className=" text-xl lg:text-2xl xl:text-2xl font-handjet font-bold text-cyan-400 ">
                 MANIFEST.IO
               </p>
               <div className="lg:bg-cyan-400/20 shadow-md xl:bg-cyan-400/20 bg-transparent :p-0 rounded xl:px-6 xl:py-4 lg:px-6 lg:py-4">
-                <p className="text-[15px]">
+                <p className="text-[12px] lg:text-[15px] xl:text-[15px] ">
                   A dynamic platform where users effortlessly share and manage
                   posts, fostering global connections akin to Twitter. It's
                   where your thoughts transform into engaging digital
                   conversations.
                 </p>
               </div>
-              <div className="flex flex-row text-sm justify-start lg:justify-end xl:justify-end text-cyan-400 gap-4 font-bold items-center ">
-                <span className="font-handjet font-bold border hover:bg-cyan-400/20 transition-all duration-200 ease-linear cursor-default px-4 rounded border-cyan-400 text-cyan-400">React JS</span>
+              <div className="flex flex-wrap text-xs lg:text-sm xl:text-sm justify-start lg:justify-end xl:justify-end text-cyan-400 gap-2 lg:gap-4 xl:gap-4 font-bold items-center ">
+                <span className="font-handjet font-bold border hover:bg-cyan-400/20 transition-all duration-200 ease-linear cursor-default px-4 rounded border-cyan-400 text-cyan-400">React</span>
                 <span className="font-handjet font-bold border hover:bg-cyan-400/20 transition-all duration-200 ease-linear cursor-default px-4 rounded border-cyan-400 text-cyan-400">Tailwind</span>
                 <span className="font-handjet font-bold border hover:bg-cyan-400/20 transition-all duration-200 ease-linear cursor-default px-4 rounded border-cyan-400 text-cyan-400">Javascript</span>
                 <span className="font-handjet font-bold border hover:bg-cyan-400/20 transition-all duration-200 ease-linear cursor-default px-4 rounded border-cyan-400 text-cyan-400">Appwrite(backend)</span>
               </div>
-              <div className="flex flex-row text-lg gap-4 justify-start lg:justify-end xl:justify-end" >
+              <div className="flex z-10 flex-row text-lg gap-4 justify-start lg:justify-end xl:justify-end" >
               <Link
                   to="https://github.com/ribhugautam/Manifest.IO"
                   target="_blank"

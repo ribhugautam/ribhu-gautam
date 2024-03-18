@@ -75,14 +75,19 @@ function About() {
             </div>
           </div>
           <div className="relative mt-8  ">
-            <div className="w-[250px] h-[250px] relative z-10 rounded ">
+            <div className="max-w-[250px] max-h-[250px] relative z-10 rounded ">
               <img
                 src={ribhu}
                 alt="picture"
                 className="rounded object-cover filter grayscale-[80%] hover:grayscale-0 hover:-translate-x-1 hover:-translate-y-1  transition-all duration-200 ease-linear "
               />
+              
             </div>
-            <div className="w-[250px] z-[0] absolute top-4 left-4 h-[250px] rounded border-2 border-cyan-400 " />
+
+            <div className="max-w-[250px] max-h-[250px]" >
+            <div className="w-full z-[0] absolute top-4 left-4 h-full rounded border-2 border-cyan-400 " />
+            </div>
+            
           </div>
         </div>
       </div>
