@@ -34,7 +34,7 @@ function Projects() {
               <p className=" text-xl lg:text-2xl xl:text-2xl font-handjet font-bold text-cyan-400 ">
                 MANIFEST.IO
               </p>
-              <div className="lg:bg-cyan-400/20 shadow-md xl:bg-cyan-400/20 bg-transparent :p-0 rounded xl:px-6 xl:py-4 lg:px-6 lg:py-4">
+              <div className="lg:bg-cyan-400/20 shadow-md lg:backdrop-blur-sm xl:backdrop-blur-sm sm:shadow-none xl:bg-cyan-400/20 bg-transparent p-0 rounded xl:px-6 xl:py-4 lg:px-6 lg:py-4">
                 <p className="text-[12px] lg:text-[15px] xl:text-[15px] ">
                   A dynamic platform where users effortlessly share and manage
                   posts, fostering global connections akin to Twitter. It's
@@ -90,7 +90,7 @@ function Projects() {
               <p className=" text-xl lg:text-2xl xl:text-2xl font-handjet font-bold text-cyan-400 ">
                 TECH BUDDIES
               </p>
-              <div className="lg:bg-cyan-400/20 shadow-md xl:bg-cyan-400/20 bg-transparent :p-0 rounded xl:px-6 xl:py-4 lg:px-6 lg:py-4">
+              <div className="lg:bg-cyan-400/20 shadow-md sm:shadow-none xl:bg-cyan-400/20 bg-transparent :p-0 rounded xl:px-6 xl:py-4 lg:px-6 lg:py-4">
                 <p className="text-[12px] lg:text-[15px] xl:text-[15px] ">
                   Tech Buddies, built with ReactJS and Tailwind CSS, offers a
                   responsive and user-friendly platform for tech enthusiasts to
