@@ -8,6 +8,7 @@ import Hero from "./components/Hero";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { IoIosArrowUp } from "react-icons/io";
 import Footer from "./components/Footer";
 
 function App() {
@@ -80,6 +81,9 @@ function App() {
 
         </div>
       </div>
+      <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="fixed bottom-4 right-4 z-40 hover:text-cyan-400 hover:translate-y-[-2px] transition-all duration-200 ease-linear" >
+      <IoIosArrowUp size={28} className=" text-cyan-400 " />
+      </button>
     </>
   );
 }
